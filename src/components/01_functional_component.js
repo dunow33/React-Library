@@ -1,5 +1,5 @@
 import React from 'react';
-import Codepen from 'react-codepen';
+import Codepen from 'react-codepen-embed';
 //Functional Component Example
 
 const FunctionalComponent = function(){

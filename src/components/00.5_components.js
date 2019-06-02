@@ -50,12 +50,8 @@ export default class Components extends Component {
 
 					<hr className="codepen" />
 					
-					<Codepen
-  						user="KayleaBritton" 
-  						hash="mBqoOj" />
+					<Codepen height="350" user="dunow33" hash="ZNVZwG" />
 					
-
-
 					<button id="butn2" className="button" onClick={next}>Next</button>
 				</div>
 			</div>

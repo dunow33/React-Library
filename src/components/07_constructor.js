@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import Codepen from 'react-codepen';
+import Codepen from 'react-codepen-embed';
 
 
 export default class Constructor extends Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Component} from 'react';
-import Codepen from 'react-codepen';
+import Codepen from 'react-codepen-embed';
 
 export default class SetState extends Component {
 	render(){
@@ -42,7 +42,7 @@ export default class SetState extends Component {
 
 
 					<hr className="codepen" />
-					<Codepen height="350" user="KayleaBritton" hash="RLZpaR" />
+					<Codepen height="350" user="dunow33" hash="RLZpaR" />
 
 					<p>Now, we'll take a look at Constructor.</p>
 					<button id="butn" className="button" onClick={next}>Next</button>

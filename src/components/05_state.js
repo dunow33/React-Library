@@ -1,6 +1,6 @@
 import React from 'react';
 import {Component} from 'react';
-import Codepen from 'react-codepen';
+import Codepen from 'react-codepen-embed';
 
 
 export default class State extends Component {
@@ -40,7 +40,7 @@ export default class State extends Component {
 					<p>Key takeways of setting the initial state are that it needs to be declared inside of the constructor and the constructor 
 					should take an argument of props.</p> 
 					<hr className="codepen" />
-					<Codepen height="350" user="KayleaBritton" hash="RLZpaR" />
+					<Codepen height="350" user="dunow33" hash="GazjoE" />
 					<p>Let's see state change with setState now.</p>
 					<button id="butn" className="button" onClick={next}>Next</button>
 				</div>

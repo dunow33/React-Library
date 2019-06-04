@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import Codepen from 'react-codepen';
+import Codepen from 'react-codepen-embed';
 
 
 export default class Props extends Component {
@@ -39,7 +39,7 @@ export default class Props extends Component {
           App Component where functional component One is called.</p>
           <p> So props is an object with a key of "name" and a value of "Kaylea" that renders the value where props.name is.</p>
           <hr className="codepen" />
-          <Codepen height="350" user="KayleaBritton" hash="borJMa" />
+          <Codepen height="350" user="dunow33" hash="jodMbp" />
           <p>Let's move on to State.</p>
           <button id="butn" className="button" onClick={next}>Next</button>
         </div>

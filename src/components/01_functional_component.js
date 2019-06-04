@@ -45,7 +45,7 @@ const FunctionalComponent = function(){
 
 
 				<hr className="codepen" />
-				<Codepen height="350" user="KayleaBritton" hash="oGGgqX" />
+				<Codepen height="350" user="dunow33" hash="mYvPbK" />
 
 				<p>Next, let's take a step back and talk about the fat arrow for a minute.</p>
 				<button id="butn3" className="button" onClick={next}>Next</button>

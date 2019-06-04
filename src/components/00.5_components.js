@@ -4,8 +4,7 @@ import Codepen from 'react-codepen-embed';
 export default class Components extends Component {
 	render() {
 		function next() {
-			//window.location.assign('/functionalComponent');
-			alert('heeeeyaaaaa!!!!');
+			window.location.assign('/functionalComponent');
 		}
 
 	return (

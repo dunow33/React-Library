@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import Codepen from 'react-codepen';
+import Codepen from 'react-codepen-embed';
 
 //class components
 
@@ -41,7 +41,7 @@ export default class ClassComponent extends Component {
 
 
 					<hr className="codepen" />
-					<Codepen height="350" user="KayleaBritton" hash="dVVPgM" />
+					<Codepen height="350" user="dunow33" hash="oRmLGr" />
 
 					<p>Moving on, we'll discuss JSX.</p>
 					<button id="butn5" className="button" onClick={next}>Next</button>

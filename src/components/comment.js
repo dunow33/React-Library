@@ -30,9 +30,9 @@ export default class Comment extends Component {
   
   addComment(commentData) {
     
-    (foo, bar, ...args) => {
+    /*(foo, bar, ...args) => {
       
-    }
+    }*/
     
     var timeStamp = (new Date()).getTime();
     

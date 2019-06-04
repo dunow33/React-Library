@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import Codepen from 'react-codepen';
+import Codepen from 'react-codepen-embed';
 
 
 export default class JSXRules extends Component {
@@ -39,7 +39,7 @@ export default class JSXRules extends Component {
 					camelCase in naming. So instead of class, you use className. This also happens because class is a keyword in React
 					(remember Class Components?).</p>
 					<hr className="codepen" />
-					<Codepen height="350" user="KayleaBritton" hash="borJMa" />
+					<Codepen height="350" user="dunow33" hash="pmGEvx" />
 					<p>Now, we'll talk about props.</p>
 					<button id="butn" className="button" onClick={next}>Next</button>
 				</div>

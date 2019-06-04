@@ -9,8 +9,7 @@ import JSXRules from '../components/04_jsx';
 import Props from '../components/04_props_advanced';
 import PropsApp from '../components/props/PropsApp';
 import State from '../components/05_state';
-import LifeCycle from '../components/lifecycle';
-import WillMount from '../components/lifecycle_will_mount'
+import WillMount from '../components/will_mount'
 import Clock from '../components/lifecycle_will_mount_example'
 import SetState from '../components/06_setState';
 import Constructor from '../components/07_constructor';
@@ -20,8 +19,8 @@ import Video from '../components/video/video';
 import Comment from '../components/comment';
 import FriendForm from '../components/axios_post_request';
 import Footer from '../components/07_footer';
-import Child from '../components/props_work/Child'
-import Parent from '../components/props_work/Parent'
+import Child from '../components/props_work/Child';
+import Parent from '../components/props_work/Parent';
 
 export const routes = [
   {
@@ -79,11 +78,6 @@ export const routes = [
     path: '/constructor',
     sidebar: () => <div>Constructor</div>,
     main: () => <Constructor />
-  },
-  {
-    path: '/lifecycle',
-    sidebar: () => <div>Life Cycle</div>,
-    main: () => <LifeCycle />
   },
   {
     path: '/video',

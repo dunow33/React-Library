@@ -41,7 +41,7 @@ const FatArrow = () => {
 
 
 				<hr className="codepen" />
-				<Codepen height="350" user="dunow33" hash="ZNVZwG" />
+				<Codepen height="350" user="dunow33" hash="qGgNOL" />
 
 				<p>Now let's jump back into React and look at class components.</p>
 				<button id="butn4" className="button" onClick={next}>Next</button>

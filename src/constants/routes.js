@@ -9,11 +9,11 @@ import JSXRules from '../components/04_jsx';
 import Props from '../components/04_props_advanced';
 import PropsApp from '../components/props/PropsApp';
 import State from '../components/05_state';
-import WillMount from '../components/will_mount'
-import Clock from '../components/lifecycle_will_mount_example'
+import IncrementButton from '../components/IncrementButton';
+import Clock from '../components/clock';
 import SetState from '../components/06_setState';
 import Constructor from '../components/07_constructor';
-import ToDoApp from '../components/todo'
+import ToDoApp from '../components/todo';
 import Timer from '../components/timer';
 import Video from '../components/video/video';
 import Comment from '../components/comment';
@@ -85,13 +85,13 @@ export const routes = [
     main: () => <Video />
   },
   {
-    path: '/willmount',
-    sidebar: () => <div>willMount</div>,
-    main: () => <WillMount />
+    path: '/IncrementButton',
+    sidebar: () => <div>IncrementButton</div>,
+    main: () => <IncrementButton />
   },
   {
-    path: '/willmountadv',
-    sidebar: () => <div>Will Mount Example</div>,
+    path: '/clock',
+    sidebar: () => <div>Clock</div>,
     main: () => <Clock />
   },
   {

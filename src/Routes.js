@@ -18,11 +18,11 @@ const Routes = () => (
             	<li><Link to="/state">State</Link></li>
             	<li><Link to="/setstate">setState</Link></li>
             	<li><Link to="/constructor">Constructor</Link></li>
-            	<li><Link to="/willmount">willMount</Link></li>
+            	<li><Link to="/IncrementButton">Increment Button</Link></li>
             	<li><Link to="/video">Video</Link></li>
             	<li><Link to="/todo">To Do App</Link></li>
             	<li><Link to="/timer">Timer</Link></li>
-            	<li><Link to="/willmountadv">Clock</Link></li>
+            	<li><Link to="/clock">Clock</Link></li>
             	<li><Link to="/comment">Comment</Link></li>
             	<li><Link to="/friendform">Friend Form</Link></li>
             	<li><Link to="/names">Names</Link></li>

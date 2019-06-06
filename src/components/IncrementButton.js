@@ -2,7 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 
 
-export default class WillMount extends Component {
+export default class ImcrementButton extends Component {
 	constructor(){
 		super();
 		this.state = {val: 0}

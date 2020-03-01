@@ -20,7 +20,6 @@ export default class Timer extends React.Component {
   componentWillUnmount() {
     clearInterval(this.interval);
         console.log(this.interval);
-
   }
 
   render() {
